@@ -22,3 +22,11 @@
 [x-cloak=""] {
     display: none;
 }
+
+body {
+    transition: 0.5s ease-out;
+}
+
+body.is-scrolling {
+    transition: 0.5s ease-in;
+}

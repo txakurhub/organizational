@@ -1,6 +1,18 @@
 /* Range slider */
 :root {
     --range-thumb-size: 36px;
+    scroll-behavior: smooth;
+
+}
+
+
+
+body {
+    transition: 0.3s ease-out;
+}
+
+body.is-scrolling {
+    transition: 0.3s ease-in;
 }
 
 input[type=range] {
