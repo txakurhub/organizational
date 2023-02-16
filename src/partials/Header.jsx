@@ -61,7 +61,7 @@ function Header() {
                   to="/about"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  About
+                  Workflow
                 </Link>
               </li>
               <li>
@@ -69,7 +69,7 @@ function Header() {
                   to="/work"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Work
+                  Products
                 </Link>
               </li>
 
@@ -125,7 +125,7 @@ function Header() {
                     to="/about"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
-                    About
+                    Workflow
                   </Link>
                 </li>
                 <li>
@@ -133,7 +133,7 @@ function Header() {
                     to="/work"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
-                    Work
+                    Products
                   </Link>
                 </li>
                 <li>

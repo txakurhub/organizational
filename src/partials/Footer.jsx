@@ -33,7 +33,7 @@ function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; Leandro Pereyra. All rights reserved</div>
+            <div className="text-transparent text-sm mr-4 ">&copy; Leandro Pereyra</div>
 
           </div>
 
