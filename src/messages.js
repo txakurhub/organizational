@@ -7,7 +7,7 @@ export const allMessages = {
     // ---- headerERO
     "hero.title": "Desatemos esa idea y observemos la magia en acción.",
     "hero.sub":
-      "Nos apasiona convertir tu visión en una presencia web funcional y visualmente asombrosa. Trabajemos juntos para crear una experiencia digital que deje una impresión duradera.",
+      "Me apasiona convertir tu visión en una presencia web funcional y visualmente impresionante. Trabajemos juntos para crear una experiencia digital que cause un impacto duradero.",
     "hero.primary": "Empecemos",
     "hero.secondary": "Aprender más",
     // -------- WORKFLOW
@@ -52,6 +52,8 @@ export const allMessages = {
     "fix.check": "Puedes revisar mi Github",
     "fix.or": "o",
     "fix.link": "mi LinkedIn",
+    //-------------- FOOTER
+    "foot.text1": "Leandro Pereyra - Full-Stack Developer",
   },
   en: {
     // ---- hEADER
@@ -61,7 +63,7 @@ export const allMessages = {
     // ---- hERO
     "hero.title": "Let's unleash that idea and watch the magic happen.",
     "hero.sub":
-      "We are passionate about transforming your vision into a functional, visually-stunning web presence. Let's work together to create a digital experience that leaves a lasting impression.",
+      "I am passionate about transforming your vision into a functional, visually-stunning web presence. Let's work together to create a digital experience that leaves a lasting impression.",
     "hero.primary": "Get Started",
     "hero.secondary": "Learn More",
     // -------- WORKFLOW
@@ -91,7 +93,7 @@ export const allMessages = {
 
     "wf.feed": "Feedback",
     "wf.feedDesc":
-      "We understand the importance of creating a website that meets your needs and resonates with your audience, and we won't stop until we achieve that goal.",
+      "I understand the importance of creating a website that meets your needs and resonates with your audience, and I won't stop until we achieve that goal.",
     //   -----------------PRODUCT
     "prod.lema": "Reach goals that matter",
     "prod.title": "One product, unlimited solutions",
@@ -111,5 +113,7 @@ export const allMessages = {
     "fix.check": "Check my GitHub",
     "fix.or": "or",
     "fix.link": "my LinkedIn",
+    //-------------- FOOTER
+    "foot.text1": "Leandro Pereyra - Full-Stack Developer",
   },
 };

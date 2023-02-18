@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 
 function FeaturesBlocks() {
   return (
@@ -8,8 +9,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">The majority our customers do not understand their workflows.</h2>
-            <p className="text-xl text-gray-400">Don't let a lack of understanding of your workflow hold you back, let us help you streamline your processes and increase your efficiency.</p>
+            <h2 className="h2 mb-4"><FormattedMessage id="wf.title"/></h2>
+            <p className="text-xl text-gray-400"><FormattedMessage id="wf.sub"/></p>
           </div>
 
           {/* Items */}

@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import { FormattedMessage } from "react-intl";
 import { Link } from "react-router-dom";
 import Dropdown from "../utils/Dropdown";
 
@@ -90,35 +91,35 @@ function Header({ lang, setLang }) {
               <li>
                 <Link
                   to="/about"
-                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Workflow
+                  <FormattedMessage id="header.work" />
                 </Link>
               </li>
               <li>
                 <Link
                   to="/work"
-                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Products
+                  <FormattedMessage id="header.prod" />
                 </Link>
               </li>
 
               <li>
                 <Link
                   to="/contact"
-                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Contact
+                  <FormattedMessage id="header.cont" />
                 </Link>
               </li>
 
               <li>
                 <button
                   onClick={() => setLang(!lang)}
-                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  ES
+                  {lang ? "ES" : "EN"}
                 </button>
               </li>
 
@@ -165,7 +166,7 @@ function Header({ lang, setLang }) {
                     to="/about"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
-                    Workflow
+                    <FormattedMessage id="header.work" />
                   </Link>
                 </li>
                 <li>
@@ -173,7 +174,7 @@ function Header({ lang, setLang }) {
                     to="/work"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
-                    Products
+                    <FormattedMessage id="header.prod" />
                   </Link>
                 </li>
                 <li>
@@ -181,7 +182,7 @@ function Header({ lang, setLang }) {
                     to="/contact"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
-                    Contact
+                    <FormattedMessage id="header.cont" />
                   </Link>
                 </li>
 
@@ -190,7 +191,7 @@ function Header({ lang, setLang }) {
                     onClick={() => setLang(!lang)}
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
-                    ES
+                    {lang ? "ES" : "EN"}
                   </button>
                 </li>
               </ul>
