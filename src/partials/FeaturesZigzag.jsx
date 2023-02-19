@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 
 import FeatImage01 from '../images/features-03-image-01.png';
 import FeatImage02 from '../images/features-03-image-02.png';
@@ -12,9 +13,9 @@ function FeaturesZigzag() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div>
-            <h1 className="h2 mb-4">One product, unlimited solutions</h1>
-            <p className="text-xl text-gray-400">A showcase of my latest projects and collaborations, spanning a variety of industries and platforms, from web development to mobile apps and more</p>
+            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4"><FormattedMessage id="prod.lema"/></div>
+            <h1 className="h2 mb-4"><FormattedMessage id="prod.title"/></h1>
+            <p className="text-xl text-gray-400"><FormattedMessage id="prod.subtitle"/></p>
           </div>
 
           {/* Items */}
@@ -29,7 +30,7 @@ function FeaturesZigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">IT solutions and consulting</div>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2"><FormattedMessage id="prod.itSolutions"/></div>
                   <h3 className="h3 mb-3">Soffysoft Web Page</h3>
                   {/* <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
                   <ul className="text-lg text-gray-400 -mb-2">
@@ -65,7 +66,7 @@ function FeaturesZigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Advertising services</div>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2"><FormattedMessage id="prod.ad"/></div>
                   <h3 className="h3 mb-3">Gravity Web Page</h3>
                   <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
@@ -101,7 +102,7 @@ function FeaturesZigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">A mobile real estate app</div>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2"><FormattedMessage id="prod.mobile"/></div>
                   <h3 className="h3 mb-3">GoRent App</h3>
                   <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
