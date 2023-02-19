@@ -2,6 +2,7 @@ import React from "react";
 import emailjs from "emailjs-com";
 import { useState } from "react";
 import Swal from "sweetalert2";
+import { FormattedMessage } from "react-intl";
 
 function Newsletter() {
   const [state, setState] = useState({
@@ -9,6 +10,7 @@ function Newsletter() {
     email: "",
     message: "",
   });
+
   const handleChange = (e) => {
     setState({
       ...state,
@@ -33,13 +35,13 @@ function Newsletter() {
           showConfirmButton: false,
           timer: 1500,
         });
-        console.log(res);
         setState({
           name: "",
           email: "",
           message: "",
         });
       });
+    window.scrollTo(0, 0);
   };
   return (
     <section id="contact">
@@ -85,19 +87,21 @@ function Newsletter() {
           <div className="relative flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-white mb-2">Stay in the loop</h3>
+              <h3 className="h3 text-white mb-2">
+                <FormattedMessage id="form.title" />
+              </h3>
               <p className="text-purple-200 text-lg">
-                Get the conversation started
+                <FormattedMessage id="form.subtitle" />
               </p>
             </div>
 
             {/* CTA form */}
-            <form className="w-full lg:w-1/2">
+            <form className="w-full lg:w-1/2" onSubmit={(e) => sendMessage(e)}>
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 <div className="w-full">
                   <div>
                     <label className="text-purple-200 text-lg">
-                      Name
+                        <FormattedMessage id="form.name" />
                     </label>
                     <input
                       className="w-full border border-input-border bg-input px-3 py-2"
@@ -105,11 +109,12 @@ function Newsletter() {
                       name="name"
                       onChange={handleChange}
                       value={state.name}
+                      required
                     />
                   </div>
                   <div>
                     <label className="text-purple-200 text-lg">
-                      Email
+                        <FormattedMessage id="form.mail" />
                     </label>
                     <input
                       type="email"
@@ -117,11 +122,12 @@ function Newsletter() {
                       className="w-full border border-input-border bg-input px-3 py-2"
                       onChange={handleChange}
                       value={state.email}
+                      required
                     />
                   </div>
                   <div>
                     <label className="text-purple-200 text-lg">
-                      Message
+                        <FormattedMessage id="form.msg" />
                     </label>
                     <textarea
                       type="text"
@@ -129,17 +135,16 @@ function Newsletter() {
                       className="w-full border border-input-border bg-input px-3 py-2 h-56 resize-none"
                       onChange={handleChange}
                       value={state.message}
+                      required
                     ></textarea>
                   </div>
                   <button
                     className="btn text-purple-600 bg-purple-100 hover:bg-white shadow"
-                    type="sumbit"
+                    type="submit"
                   >
-                    Send it!
+                    <FormattedMessage id="form.submit" />
                   </button>
                 </div>
-                {/* Success message */}
-                {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
               </div>
             </form>
           </div>
