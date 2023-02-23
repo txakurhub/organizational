@@ -74,9 +74,9 @@ export const allMessages = {
     "hero.primary": "Get Started",
     "hero.secondary": "Learn More",
     // -------- WORKFLOW
-    "wf.title": "The majority our customers do not understand their workflows.",
+    "wf.title": "Most customers do not understand their workflows.",
     "wf.sub":
-      "Don't let a lack of understanding of your workflow hold you back, let us help you streamline your processes and increase your efficiency.",
+      "Don't let a lack of understanding of your workflow hold you back, let me help you streamline your processes and increase your efficiency.",
 
     "wf.plan": "Planification",
     "wf.planDesc":
