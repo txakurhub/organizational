@@ -120,7 +120,7 @@ export const allMessages = {
     "wf.gr.txt":
       "GoRent streamlines the property buying, renting, and selling process. It offers a user-friendly interface with a vast selection of listings, complete with high-quality photos and detailed descriptions, and powerful search filters.",
     "wf.gt.desc":
-      "Desarrollo front-end del sitio, utilizando React para crear componentes basados en Figma y estilizándolos con TailwindCSS. El resultado es un sitio web full responsive.",
+      "Front-end development for the website, utilizing React to create Figma-based components and styling them with TailwindCSS. The result is a fully responsive website.",
     //   -----------------PRODUCT
     "prod.lema": "Reach goals that matter",
     "prod.title": "One product, unlimited solutions",
