@@ -33,6 +33,13 @@ export const allMessages = {
     "wf.feed": "Feedback",
     "wf.feedDesc":
       "Sabemos lo fundamental que es crear un sitio web que satisfaga tus necesidades y conecte con tu audiencia, y no nos detendremos hasta conseguir ese propósito.",
+    "wf.ss.1":
+      "Desarrollo de la interfaz de usuario del sitio mediante la aplicación de metodologías ágiles (SCRUM).",
+    "wf.ss.2":
+      "Desarrollo de componentes atractivos y funcionales utilizando Figma y TailwindCSS.",
+    "wf.ss.3":
+      " Diseño completamente adaptable a diferentes tamaños de pantalla y dispositivos.",
+
     //   -----------------PRODUCT
     "prod.lema": "Alcanza objetivos que importen.",
     "prod.title": "Un producto, infinitas soluciones",
@@ -49,12 +56,12 @@ export const allMessages = {
     "form.msg": "Tu mensaje",
     "form.submit": "Enviar!",
     "form.success": "Gracias!",
-    "form.nameReq":"Nombre es un campo requerido",
-    "form.nameLen":"Nombre tiene un minimo de 3 caracteres",
-    "form.mailReq":"Email es un campo requerido",
-    "form.mailFake":"El email no es válido",
-    "form.msgReq":"El mensaje es un campo requerido",
-    "form.msgLen":"El mensaje tiene un mínimo de 15 caracteres",
+    "form.nameReq": "Nombre es un campo requerido",
+    "form.nameLen": "Nombre tiene un minimo de 3 caracteres",
+    "form.mailReq": "Email es un campo requerido",
+    "form.mailFake": "El email no es válido",
+    "form.msgReq": "El mensaje es un campo requerido",
+    "form.msgLen": "El mensaje tiene un mínimo de 15 caracteres",
     // ---------------FIXED
     "fix.check": "Puedes revisar mi Github",
     "fix.or": "o",
@@ -101,6 +108,13 @@ export const allMessages = {
     "wf.feed": "Feedback",
     "wf.feedDesc":
       "I understand the importance of creating a website that meets your needs and resonates with your audience, and I won't stop until we achieve that goal.",
+    "wf.ss.1":
+      "UI development of the site through the application of agile methodologies (SCRUM).",
+    "wf.ss.2":
+      "Development of attractive and functional components using Figma and TailwindCSS.",
+    "wf.ss.3":
+      "Fully responsive design that adjusts to different screen sizes and devices.",
+
     //   -----------------PRODUCT
     "prod.lema": "Reach goals that matter",
     "prod.title": "One product, unlimited solutions",
@@ -117,12 +131,12 @@ export const allMessages = {
     "form.msg": "Message",
     "form.submit": "Send it!",
     "form.success": "Thanks!",
-    "form.nameReq":"Nombre es un campo requerido",
-    "form.nameLen":"Nombre tiene un minimo de 3 caracteres",
-    "form.mailReq":"Email es un campo requerido",
-    "form.mailFake":"El email no es válido",
-    "form.msgReq":"El mensaje es un campo requerido",
-    "form.msgLen":"El mensaje tiene un mínimo de 15 caracteres",
+    "form.nameReq": "Nombre es un campo requerido",
+    "form.nameLen": "Nombre tiene un minimo de 3 caracteres",
+    "form.mailReq": "Email es un campo requerido",
+    "form.mailFake": "El email no es válido",
+    "form.msgReq": "El mensaje es un campo requerido",
+    "form.msgLen": "El mensaje tiene un mínimo de 15 caracteres",
     // ---------------FIXED
     "fix.check": "Check my GitHub",
     "fix.or": "or",
