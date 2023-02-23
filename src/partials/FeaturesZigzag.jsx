@@ -1,13 +1,9 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 
-import FeatImage01 from "../images/features-03-image-01.png";
-import FeatImage02 from "../images/features-03-image-02.png";
-import FeatImage03 from "../images/features-03-image-03.png";
-
 function FeaturesZigzag() {
   return (
-    <section>
+    <section id="work">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}

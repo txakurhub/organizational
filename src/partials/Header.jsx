@@ -90,7 +90,7 @@ function Header({ lang, setLang }) {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  to="/about"
+                  to="#about"
                   className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   <FormattedMessage id="header.work" />
@@ -98,7 +98,7 @@ function Header({ lang, setLang }) {
               </li>
               <li>
                 <Link
-                  to="/work"
+                  to="#work"
                   className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   <FormattedMessage id="header.prod" />
@@ -107,7 +107,7 @@ function Header({ lang, setLang }) {
 
               <li>
                 <Link
-                  to="/contact"
+                  to="3contact"
                   className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   <FormattedMessage id="header.cont" />
@@ -163,7 +163,7 @@ function Header({ lang, setLang }) {
               <ul className="bg-gray-800 px-4 py-2">
                 <li>
                   <Link
-                    to="/about"
+                    to="#about"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     <FormattedMessage id="header.work" />
@@ -171,7 +171,7 @@ function Header({ lang, setLang }) {
                 </li>
                 <li>
                   <Link
-                    to="/work"
+                    to="#work"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     <FormattedMessage id="header.prod" />
@@ -179,7 +179,7 @@ function Header({ lang, setLang }) {
                 </li>
                 <li>
                   <Link
-                    to="/contact"
+                    to="#contact"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     <FormattedMessage id="header.cont" />
