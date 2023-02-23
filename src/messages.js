@@ -38,8 +38,11 @@ export const allMessages = {
     "wf.ss.2":
       "Desarrollo de componentes atractivos y funcionales utilizando Figma y TailwindCSS.",
     "wf.ss.3":
-      " Diseño completamente adaptable a diferentes tamaños de pantalla y dispositivos.",
-
+      "Diseño completamente adaptable a diferentes tamaños de pantalla y dispositivos.",
+    "wf.gr.txt":
+      "Liderar, diseñar y desarrollar una aplicación mobile Real Estate. Permite navegación en el mapa indicando la ubicación de las propiedades. Dispone de panel de favoritos, de panel de configuraciones donde editar datos del usuario, condiciones de seguridad, notificaciones, apariencia, historial de rentas/transacciones y ayuda. Se desarrolló en React Native con metodologías ágiles (SCRUM).",
+    "wf.gt.desc":
+      "Desarrollo front-end del sitio, utilizando React para crear componentes basados en Figma y estilizándolos con TailwindCSS. El resultado es un sitio web full responsive.",
     //   -----------------PRODUCT
     "prod.lema": "Alcanza objetivos que importen.",
     "prod.title": "Un producto, infinitas soluciones",
@@ -114,7 +117,10 @@ export const allMessages = {
       "Development of attractive and functional components using Figma and TailwindCSS.",
     "wf.ss.3":
       "Fully responsive design that adjusts to different screen sizes and devices.",
-
+    "wf.gr.txt":
+      "GoRent streamlines the property buying, renting, and selling process. It offers a user-friendly interface with a vast selection of listings, complete with high-quality photos and detailed descriptions, and powerful search filters.",
+    "wf.gt.desc":
+      "Desarrollo front-end del sitio, utilizando React para crear componentes basados en Figma y estilizándolos con TailwindCSS. El resultado es un sitio web full responsive.",
     //   -----------------PRODUCT
     "prod.lema": "Reach goals that matter",
     "prod.title": "One product, unlimited solutions",
