@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 import { FormattedMessage } from "react-intl";
-import { Link } from "react-router-dom";
 import Dropdown from "../utils/Dropdown";
 
 function Header({ lang, setLang }) {
@@ -42,7 +41,7 @@ function Header({ lang, setLang }) {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="Cruip">
+            <a href="/" className="block" aria-label="Cruip">
               <div className="flex items-center hover:text-purple-600 ease-in duration-300">
                 {/* <svg
                   className="w-8 h-8 fill-current text-purple-600"
@@ -81,37 +80,37 @@ function Header({ lang, setLang }) {
 
                 <h2 className="mx-5">Leandro Pereyra</h2>
               </div>
-            </Link>
+            </a>
           </div>
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
-            {/* Desktop menu links */}
+            {/* Desktop menu as */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link
-                  to="#about"
+                <a
+                  href="#about"
                   className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   <FormattedMessage id="header.work" />
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
-                  to="#work"
+                <a
+                  href="#work"
                   className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   <FormattedMessage id="header.prod" />
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link
-                  to="3contact"
+                <a
+                  href="#contact"
                   className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   <FormattedMessage id="header.cont" />
-                </Link>
+                </a>
               </li>
 
               <li>
@@ -162,28 +161,28 @@ function Header({ lang, setLang }) {
             >
               <ul className="bg-gray-800 px-4 py-2">
                 <li>
-                  <Link
-                    to="#about"
+                  <a
+                    href="#about"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     <FormattedMessage id="header.work" />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    to="#work"
+                  <a
+                    href="#work"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     <FormattedMessage id="header.prod" />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    to="#contact"
+                  <a
+                    href="#contact"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     <FormattedMessage id="header.cont" />
-                  </Link>
+                  </a>
                 </li>
 
                 <li>
