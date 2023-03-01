@@ -152,6 +152,39 @@ function FeaturesZigzag() {
                 </div>
               </div>
             </div>
+
+        {/* 4th item */}
+        <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
+                data-aos="fade-up"
+              >
+                <img
+                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  src="https://res.cloudinary.com/ddkurzft6/image/upload/v1662052185/sneakers/homesneakersgithub_nsztst.jpg"
+                  width="540"
+                  height="405"
+                  alt="Features 02"
+                />
+              </div>
+              {/* Content */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                data-aos="fade-left"
+              >
+                <div className="md:pl-4 lg:pl-12 xl:pl-16">
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+                    E-Commerce
+                  </div>
+                  <h3 className="h3 mb-3">Sneakers E-Commerce</h3>
+                  <p className="text-xl text-gray-400 mb-4">
+                    <FormattedMessage id="wf.sn.desc" />
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
