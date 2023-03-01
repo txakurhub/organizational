@@ -43,7 +43,8 @@ export const allMessages = {
       "Liderar, diseñar y desarrollar una aplicación mobile Real Estate. Permite navegación en el mapa indicando la ubicación de las propiedades. Dispone de panel de favoritos, de panel de configuraciones donde editar datos del usuario, condiciones de seguridad, notificaciones, apariencia, historial de rentas/transacciones y ayuda. Se desarrolló en React Native con metodologías ágiles (SCRUM).",
     "wf.gt.desc":
       "Desarrollo front-end del sitio, utilizando React para crear componentes basados en Figma y estilizándolos con TailwindCSS. El resultado es un sitio web full responsive.",
-    //   -----------------PRODUCT
+    "wf.sn.desc":"Aplicación para la compra de zapatillas. Admite pagos mediante QR, MercadoPago y PayPal. Cuenta con un panel de usuario para revisar el perfil, favoritos, carrito de compras e historial de compras, y un panel de administración con estadísticas de ventas, inventario, categorías y usuarios, permitiendo crear, buscar, editar o eliminar cualquiera de los anteriores.",
+      //   -----------------PRODUCT
     "prod.lema": "Alcanza objetivos que importen.",
     "prod.title": "Un producto, infinitas soluciones",
     "prod.subtitle":
@@ -121,7 +122,8 @@ export const allMessages = {
       "GoRent streamlines the property buying, renting, and selling process. It offers a user-friendly interface with a vast selection of listings, complete with high-quality photos and detailed descriptions, and powerful search filters.",
     "wf.gt.desc":
       "Front-end development for the website, utilizing React to create Figma-based components and styling them with TailwindCSS. The result is a fully responsive website.",
-    //   -----------------PRODUCT
+    "wf.sn.desc":"Application for Sneaker Purchase. Supports QR, MercadoPago, and PayPal payments. Features a user panel to review profile, favorites, shopping cart, and purchase history, and an administrative panel with sales statistics, inventory, categories, and users, allowing you to create, search, edit, or delete any of the above.",
+      //   -----------------PRODUCT
     "prod.lema": "Reach goals that matter",
     "prod.title": "One product, unlimited solutions",
     "prod.subtitle":
