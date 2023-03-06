@@ -21,7 +21,7 @@ function FeaturesZigzag() {
 
           {/* Items */}
           <div className="grid gap-20">
-            {/* 2nd item */}
+            {/* SIN FRONTERAS IMG LEFT */}
             {/* <div className="md:grid md:grid-cols-12 md:gap-6 items-center"> */}
             {/* Image */}
             {/* <div
@@ -53,7 +53,7 @@ function FeaturesZigzag() {
               </div>
             </div> */}
 
-            {/* 1st item */}
+            {/* SOFFYSOFT IMG RIGHT */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div
@@ -121,7 +121,7 @@ function FeaturesZigzag() {
               </div>
             </div>
 
-            {/* Gravity */}
+            {/* GRAVITY IMG LEFT */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div
@@ -153,7 +153,7 @@ function FeaturesZigzag() {
               </div>
             </div>
 
-            {/* 3rd item */}
+            {/* GORENT IMG RIGHT */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div
@@ -185,7 +185,7 @@ function FeaturesZigzag() {
               </div>
             </div>
 
-            {/* 4th item */}
+            {/* ECOMMERCE IMG LEFT */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div
