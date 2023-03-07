@@ -89,7 +89,7 @@ function Header({ lang, setLang }) {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <a
-                  href="#about"
+                  href="#workflow"
                   className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   <FormattedMessage id="header.work" />
@@ -162,7 +162,7 @@ function Header({ lang, setLang }) {
               <ul className="bg-gray-800 px-4 py-2">
                 <li>
                   <a
-                    href="#about"
+                    href="#workflow"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     <FormattedMessage id="header.work" />
