@@ -3,7 +3,7 @@ import { FormattedMessage } from "react-intl";
 
 function FeaturesBlocks() {
   return (
-    <section id="about">
+    <section id="workflow">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
