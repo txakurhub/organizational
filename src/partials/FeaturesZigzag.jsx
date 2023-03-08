@@ -56,8 +56,7 @@ function FeaturesZigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        Designing and developing the application's user
-                        interface, following design standards and guidelines.
+                        <FormattedMessage id="wf.sf.1" />
                       </span>
                     </li>
                     <li className="flex items-center mb-2">
@@ -69,9 +68,7 @@ function FeaturesZigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        Collaborating with the design team to translate designs
-                        into interactive components and functionalities using
-                        agile methodologies (Scrum).
+                        <FormattedMessage id="wf.sf.2" />
                       </span>
                     </li>
                     <li className="flex items-center">
@@ -83,9 +80,7 @@ function FeaturesZigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        Implementing and maintaining navigation between
-                        different screens of the application, ensuring a smooth
-                        user experience.
+                        <FormattedMessage id="wf.sf.3" />
                       </span>
                     </li>
                     <li className="flex items-center">
@@ -97,9 +92,7 @@ function FeaturesZigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        Integrating the application with backend services,
-                        following API specifications and ensuring correct
-                        functionality.
+                        <FormattedMessage id="wf.sf.4" />
                       </span>
                     </li>
                   </ul>
