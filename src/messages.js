@@ -46,13 +46,13 @@ export const allMessages = {
     "wf.sn.desc":
       "Aplicación para la compra de zapatillas. Admite pagos mediante QR, MercadoPago y PayPal. Cuenta con un panel de usuario para revisar el perfil, favoritos, carrito de compras e historial de compras, y un panel de administración con estadísticas de ventas, inventario, categorías y usuarios, permitiendo crear, buscar, editar o eliminar cualquiera de los anteriores.",
     "wf.sf.1":
-      "Designing and developing the application's user interface, following design standards and guidelines.",
+      "Diseñar y desarrollar la UI de la App, siguiendo estándares y guías de diseño.",
     "wf.sf.2":
-      "Collaborating with the design team to translate designs into interactive components and functionalities using agile methodologies (Scrum).",
+      "Colaborar con el equipo de diseño para transformar los diseños en componentes y funcionalidades interactivas utilizando metodologías ágiles (SCRUM).",
     "wf.sf.3":
-      "Implementing and maintaining navigation between different screens of the application, ensuring a smooth user experience.",
+      "Implementar y mantener la navegación entre las diferentes pantallas de la App, asegurando una UX fluida.",
     "wf.sf.4":
-      "Integrating the application with backend services, following API specifications and ensuring correct functionality.",
+      "Integrar la aplicación con servicios de backend, siguiendo las especificaciones de la API y asegurando su correcto funcionamiento.",
 
     //   -----------------PRODUCT
     "prod.lema": "Alcanza objetivos que importen.",
