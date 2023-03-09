@@ -101,7 +101,7 @@ function Newsletter() {
                 <div className="w-full">
                   <div>
                     <label className="text-purple-200 text-lg">
-                        <FormattedMessage id="form.name" />
+                      <FormattedMessage id="form.name" />
                     </label>
                     <input
                       className="w-full border border-input-border bg-input px-3 py-2"
@@ -114,7 +114,7 @@ function Newsletter() {
                   </div>
                   <div>
                     <label className="text-purple-200 text-lg">
-                        <FormattedMessage id="form.mail" />
+                      <FormattedMessage id="form.mail" />
                     </label>
                     <input
                       type="email"
@@ -127,7 +127,7 @@ function Newsletter() {
                   </div>
                   <div>
                     <label className="text-purple-200 text-lg">
-                        <FormattedMessage id="form.msg" />
+                      <FormattedMessage id="form.msg" />
                     </label>
                     <textarea
                       type="text"

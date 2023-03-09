@@ -21,7 +21,10 @@ function Testimonials() {
               className="flex flex-col lg:flex-row h-full p-6 bg-gray-800 items-center"
               data-aos="fade-up"
             >
-              <img src={profile} className="h-40 rounded-full mb-4 lg:mb-0 lg:mr-6"/>
+              <img
+                src={profile}
+                className="h-40 rounded-full mb-4 lg:mb-0 lg:mr-6"
+              />
               <blockquote className="text-lg text-gray-400 grow">
                 — I am a full-stack developer from Argentina, specialized in
                 creating visually appealing and functional content both working
