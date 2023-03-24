@@ -114,6 +114,16 @@ function Header({ lang, setLang }) {
               </li>
 
               <li>
+                <a
+                  href="#about"
+                  className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  <FormattedMessage id="header.about" />
+                </a>
+              </li>
+
+
+              <li>
                 <button
                   onClick={() => setLang(!lang)}
                   className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"

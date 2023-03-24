@@ -4,6 +4,7 @@ export const allMessages = {
     "header.work": "Proceso",
     "header.prod": "Productos",
     "header.cont": "Contacto",
+    "header.about": "Sobre mi",
     // ---- headerERO
     "hero.title": "Desatemos esa idea y observemos la magia en acción.",
     "hero.sub":
@@ -88,6 +89,7 @@ export const allMessages = {
     "header.work": "Workflow",
     "header.prod": "Products",
     "header.cont": "Contact",
+    "header.about": "About",
     // ---- hERO
     "hero.title": "Let's unleash that idea and watch the magic happen.",
     "hero.sub":
