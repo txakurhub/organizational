@@ -19,7 +19,6 @@ function Home() {
   return (
     <IntlProvider locale="en" messages={allMessages[currentLocale]}>
       <div className="flex flex-col min-h-screen overflow-hidden">
-        {/*  Site header */}
         <Header lang={lang} setLang={setLang} />
 
         {/*  Page content */}
@@ -32,7 +31,7 @@ function Home() {
             <PageIllustration />
           </div>
 
-          {/*  Page sections */}
+          {/* sections */}
           <HeroHome />
           <FeaturesBlocks />
           <FeaturesZigZag />
@@ -42,7 +41,6 @@ function Home() {
 
         <Banner />
 
-        {/*  Site footer */}
         <Footer />
       </div>
     </IntlProvider>
