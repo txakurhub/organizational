@@ -12,7 +12,7 @@ function Banner() {
             <div className="text-slate-500 inline-flex ">
               <a
                 className="font-medium hover:underline text-slate-50"
-                href="https://github.com/txakur"
+                href="https://github.com/txakurhub"
                 target="_blank"
                 rel="noreferrer"
               >
