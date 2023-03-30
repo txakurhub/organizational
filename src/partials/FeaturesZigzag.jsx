@@ -28,13 +28,15 @@ function FeaturesZigzag() {
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
                 data-aos="fade-up"
               >
-                <img
-                  className="max-w-full mx-auto md:max-w-none h-auto"
-                  src="https://res.cloudinary.com/ddkurzft6/image/upload/v1677860396/sin%20fronteras/sfpresentation_zsuybi.png"
-                  width="540"
-                  height="405"
-                  alt="Features 02"
-                />
+                <a href="https://github.com/No-Country/s6-06-t-react-native">
+                  <img
+                    className="max-w-full mx-auto md:max-w-none h-auto"
+                    src="https://res.cloudinary.com/ddkurzft6/image/upload/v1677860396/sin%20fronteras/sfpresentation_zsuybi.png"
+                    width="540"
+                    height="405"
+                    alt="Features 02"
+                  />
+                </a>
               </div>
               {/* Content */}
               <div
@@ -107,13 +109,15 @@ function FeaturesZigzag() {
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
                 data-aos="fade-up"
               >
-                <img
-                  className="max-w-full mx-auto md:max-w-none h-auto"
-                  src="https://res.cloudinary.com/ddkurzft6/image/upload/v1675870176/soffysoft/Soffysoft_tucbup.png"
-                  width="540"
-                  height="405"
-                  alt="Features 01"
-                />
+                <a href="https://soffysoft.com/">
+                  <img
+                    className="max-w-full mx-auto md:max-w-none h-auto"
+                    src="https://res.cloudinary.com/ddkurzft6/image/upload/v1675870176/soffysoft/Soffysoft_tucbup.png"
+                    width="540"
+                    height="405"
+                    alt="Features 01"
+                  />
+                </a>
               </div>
               {/* Content */}
               <div
@@ -175,13 +179,15 @@ function FeaturesZigzag() {
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
                 data-aos="fade-up"
               >
-                <img
-                  className="max-w-full mx-auto md:max-w-none h-auto"
-                  src="https://res.cloudinary.com/ddkurzft6/image/upload/v1675350726/gravity/Captura_2_wdef9m.png"
-                  width="540"
-                  height="405"
-                  alt="Features 02"
-                />
+                <a href="https://www.agenciagravity.com/">
+                  <img
+                    className="max-w-full mx-auto md:max-w-none h-auto"
+                    src="https://res.cloudinary.com/ddkurzft6/image/upload/v1675350726/gravity/Captura_2_wdef9m.png"
+                    width="540"
+                    height="405"
+                    alt="Features 02"
+                  />
+                </a>
               </div>
               {/* Content */}
               <div
@@ -207,13 +213,15 @@ function FeaturesZigzag() {
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
                 data-aos="fade-up"
               >
-                <img
-                  className="max-w-full mx-auto md:max-w-none h-auto"
-                  src="https://res.cloudinary.com/ddkurzft6/image/upload/v1670814470/gorent/gorent_kmrhxc.jpg"
-                  width="540"
-                  height="405"
-                  alt="Features 03"
-                />
+                <a href="https://github.com/No-Country/app-real-state-c8-46-ft-pern">
+                  <img
+                    className="max-w-full mx-auto md:max-w-none h-auto"
+                    src="https://res.cloudinary.com/ddkurzft6/image/upload/v1670814470/gorent/gorent_kmrhxc.jpg"
+                    width="540"
+                    height="405"
+                    alt="Features 03"
+                  />
+                </a>
               </div>
               {/* Content */}
               <div
@@ -239,13 +247,15 @@ function FeaturesZigzag() {
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
                 data-aos="fade-up"
               >
-                <img
-                  className="max-w-full mx-auto md:max-w-none h-auto"
-                  src="https://res.cloudinary.com/ddkurzft6/image/upload/v1662052185/sneakers/homesneakersgithub_nsztst.jpg"
-                  width="540"
-                  height="405"
-                  alt="Features 02"
-                />
+                <a href="https://sneakers-xxre.vercel.app/">
+                  <img
+                    className="max-w-full mx-auto md:max-w-none h-auto"
+                    src="https://res.cloudinary.com/ddkurzft6/image/upload/v1662052185/sneakers/homesneakersgithub_nsztst.jpg"
+                    width="540"
+                    height="405"
+                    alt="Features 02"
+                  />
+                </a>
               </div>
               {/* Content */}
               <div
