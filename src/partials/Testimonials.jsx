@@ -5,7 +5,7 @@ import profile from "../images/profile.jpeg";
 function Testimonials() {
   return (
     <section id="about">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:pt-14 lg:pb-20">
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
@@ -18,7 +18,7 @@ function Testimonials() {
           {/* About text */}
           <div className="max-w-sm mx-auto grid gap-8 lg:gap-6 items-start lg:max-w-none">
             <div
-              className="flex flex-col lg:flex-row h-full p-6 bg-gray-800 items-center"
+              className="flex flex-col lg:flex-row h-full p-6 bg-gray-800 items-center lg:py-20"
               data-aos="fade-up"
             >
               <img
