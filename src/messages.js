@@ -63,6 +63,7 @@ export const allMessages = {
     "prod.itSolutions": "Soluciones de IT y Consultoría",
     "prod.ad": "Marketing y publicidad",
     "prod.mobile": "Bienes Raíces",
+    "prod.paw": "Mascota Virtual",
     // ---------------------FORM
     "form.title": "No te pierdas nada",
     "form.subtitle": "Empieza la charla",
@@ -153,6 +154,7 @@ export const allMessages = {
     "prod.itSolutions": "IT solutions and consulting",
     "prod.ad": "Advertising services",
     "prod.mobile": "Real State",
+    "prod.paw": "Virtual Pet",
     // ---------------------FORM
     "form.title": "Stay in the loop",
     "form.subtitle": "Get the conversation started",
