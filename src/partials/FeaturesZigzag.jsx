@@ -45,7 +45,7 @@ function FeaturesZigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    <FormattedMessage id="prod.itSolutions" />
+                    <FormattedMessage id="prod.paw" />
                   </div>
                   <h3 className="h3 mb-3">Pawsitive</h3>
                   {/* <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
